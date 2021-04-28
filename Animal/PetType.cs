@@ -1,7 +1,6 @@
 ﻿using System;
 
-public enum PetType
+public class CheckBreed
 {
-    Cat,
-    Dog
+
 }
