@@ -1,7 +1,7 @@
 ﻿using System;
 
-public class Pet
+public abstract class Pet
 {
-	public string NickName { get; }
-	public virtual int DiffcultyFactor { get; set; }
+	public string NickName { get; set; }
+	public abstract int DiffcultyFactor { get; set; }
 }

@@ -1,6 +1,5 @@
 ﻿using System;
-
-public class Dog : Pet
+public abstract class Dog : Pet
 {
 
 }
@@ -18,6 +17,10 @@ public class GermanShepherd : Dog
             DiffcultyFactor = _factor;
         }
     }
+    public GermanShepherd(string nickName)
+    {
+        NickName = nickName;
+    }
 }
 public class Вachshund : Dog
 {
@@ -32,5 +35,9 @@ public class Вachshund : Dog
         {
             DiffcultyFactor = _factor;
         }
+    }
+    public Вachshund(string nickName)
+    {
+        NickName = nickName;
     }
 }
